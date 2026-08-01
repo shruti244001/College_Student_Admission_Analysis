@@ -1,19 +1,56 @@
-**COLLEGE STUDENT ADMISSION ANALYSIS**
-Attribute Description
+# 🎓 College Student Admission Analysis
 
-GRE : Graduate Record Exam Scores
+A Machine Learning project that analyzes student admission data to identify patterns and predict admission outcomes.
 
-GPA : Grade Point Average
+## Overview
 
-Rank : It refers to the prestige of the undergraduate institution. The variable rank takes on the values 1 through 4. Institutions with a rank of 1 have the highest prestige, while those with a rank of 4 have the lowest.
+This project performs data preprocessing, exploratory data analysis, feature engineering, and predictive modeling to understand the factors influencing college admissions.
 
-Admit : It is a response variable; admit/don’t admit is a binary variable where 1 indicates that student is admitted and 0 indicates that student is not admitted.
+## Features
 
-SES : SES refers to socioeconomic status: 1 - low, 2 - medium, 3 - high.
+- Data cleaning
+- Exploratory Data Analysis (EDA)
+- Data visualization
+- Predictive modeling
+- Feature importance analysis
 
-Gender_male : Gender_male (0, 1) = 0 -> Female, 1 -> Male
+## Technologies Used
 
-Race : Race – 1, 2, and 3 represent Hispanic, Asian, and African-American
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook
 
-In this project, We need to find out that on what basis students get shortlisted/ admitted in college.
-It uses Machine Learning Libraries like logistic regression, linear regaression and multiple linear regression to predict the admission status of the student based on the factors present in the data.
+## Project Structure
+
+```
+College_Student_Admission_Analysis/
+
+│── Final college Admission project.ipynb
+│── dataset/
+│── README.md
+│── requirements.txt
+```
+
+## Installation
+
+```bash
+git clone https://github.com/shruti244001/College_Student_Admission_Analysis.git
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+## Future Improvements
+
+- Deploy using Streamlit
+- Add model comparison
+- Hyperparameter tuning
+- Improve prediction accuracy
+
+## Author
+
+Shruti Sharma
